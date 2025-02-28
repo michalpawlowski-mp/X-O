@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "less": "^4.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "less": "lessc styles.less styles.css",
+    "less-watch": "lessc styles.less styles.css -w"
+  }
+}
